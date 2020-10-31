@@ -1,0 +1,337 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #8fb2b9;
+  background-image: linear-gradient(90deg, transparent 50%, #b3c8cb 50%);
+  background-size: 50px 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.table {
+  top: 75%;
+  margin: 0;
+  padding: 0;
+  height: 25%;
+  width: 100%;
+  position: absolute;
+  background-color: hsl(2, 57%, 40%);
+  background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+  repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+  repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
+}
+
+.table2 {
+  transform: rotate(180deg) scaleX(-1);
+  filter: brightness(80%);
+  top: 57%;
+  margin: 0;
+  padding: 0;
+  height: 25%;
+  width: 10%;
+  left: 43.55%;
+  position: absolute;
+  background-color: hsl(2, 57%, 40%);
+  background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+  repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+  repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
+}
+
+@font-face{
+  font-family: TitleFont;
+  src: url(BivoacRegulerDemo.otf);
+ }
+
+.title {
+  color: #fff;
+  -webkit-text-stroke: 1.25px black;
+  font-size: 45px;
+  font-family: "TitleFont";
+  text-align: center;
+}
+
+.Bun {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Bun.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 160px; /* Divided By 8 */
+  height: 90px;
+  top: 66.5%;
+  left: 8%;
+  transition: transform 0.25s;
+}
+
+.Bun:hover {
+  cursor: grab;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.Bun2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Bun2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 164px; /* Divided By 8 */
+  height: 100px;
+  top: 77%;
+  left: 2%;
+  transition: transform 0.25s;
+}
+
+.Bun2:hover {
+  cursor: grab;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.Meat {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Meat.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 154.125px; /* Divided By 8 */
+  height: 73.625px;
+  top: 70.5%;
+  left: 21%;
+  transition: transform 0.25s;
+}
+
+.Meat:hover {
+  cursor: grab;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.Meat2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Meat2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 154.125px; /* Divided By 8 */
+  height: 73.625px;
+  top: 81%;
+  left: 15%;
+  transition: transform 0.25s;
+}
+
+.Meat2:hover {
+  cursor: grab;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.Cheese {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Cheese.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150.125px; /* Divided By 8 */
+  height: 83.25px;
+  top: 72%;
+  left: 34%;
+  transition: transform 0.25s;
+}
+
+.Cheese:hover {
+  cursor: grab;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.Cheese2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Cheese2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 170px; /* Divided By 8 */
+  height: 90px;
+  top: 80%;
+  left: 27%;
+  transition: transform 0.25s;
+}
+
+.Cheese2:hover {
+  cursor: grab;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.Egg {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Egg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 130px; /* Divided By 8 */
+  height: 78px;
+  top: 70.5%;
+  left: 47%;
+  transition: transform 0.25s;
+}
+
+.Egg:hover {
+  cursor: grab;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.Tomato {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Tomato.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 132px; /* Divided By 8 */
+  height: 92px;
+  top: 78%;
+  left: 41%;
+  transition: transform 0.25s;
+}
+
+.Tomato:hover {
+  cursor: grab;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.Pickles {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Pickles.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 170px; /* Divided By 8 */
+  height: 102px;
+  top: 66.5%;
+  right: 2%;
+  transition: transform 0.25s;
+  transform: scale(0.8);
+}
+
+.Pickles:hover {
+  cursor: grab;
+  transform: scale(1) rotate(-5deg);
+}
+
+.Lettuce {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Lettuce.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 164px; /* Divided By 8 */
+  height: 102px;
+  top: 77%;
+  right: 7%;
+  transition: transform 0.25s;
+  transform: scale(0.9);
+}
+
+.Lettuce:hover {
+  cursor: grab;
+  transform: scale(1.1) rotate(-5deg);
+}
+
+.Bacon {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Bacon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 155px; /* Divided By 8 */
+  height: 125px;
+  top: 62%;
+  right: 15.5%;
+  transition: transform 0.25s;
+}
+
+.Bacon:hover {
+  cursor: grab;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.Mushrooms {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Mushrooms.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 155px; /* Divided By 8 */
+  height: 90px;
+  top: 78.5%;
+  right: 21%;
+  transition: transform 0.25s;
+  transform: scale(0.9);
+}
+
+.Mushrooms:hover {
+  cursor: grab;
+  transform: scale(1.1) rotate(-5deg);
+}
+
+.Onions {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Onions.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 164px; /* Divided By 8 */
+  height: 90px;
+  top: 79.5%;
+  right: 35%;
+  transition: transform 0.25s;
+}
+
+.Onions:hover {
+  cursor: grab;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.Pepperoni {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/Pepperoni.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 184px; /* Divided By 8 */
+  height: 100px;
+  top: 68%;
+  right: 29%;
+  transition: transform 0.25s;
+  transform: scale(0.8);
+}
+
+.Pepperoni:hover {
+  cursor: grab;
+  transform: scale(1) rotate(-5deg);
+}
+
+.Plate {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/plate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px; /* Divided By 8 */
+  height: 80px;
+  top: 50%;
+  left: 41.5%;
+  transition: transform 0.25s;
+}
