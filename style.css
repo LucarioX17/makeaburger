@@ -23,22 +23,6 @@ body {
   repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
 }
 
-.table2 {
-  transform: rotate(180deg) scaleX(-1);
-  filter: brightness(80%);
-  top: 57%;
-  margin: 0;
-  padding: 0;
-  height: 25%;
-  width: 10%;
-  left: 43.55%;
-  position: absolute;
-  background-color: hsl(2, 57%, 40%);
-  background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
-  repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
-  repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
-}
-
 @font-face{
   font-family: TitleFont;
   src: url(BivoacRegulerDemo.otf);
@@ -334,4 +318,23 @@ body {
   top: 50%;
   left: 41.5%;
   transition: transform 0.25s;
+}
+
+.Reload {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url("Ingredients/reload.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  top: 60%;
+  left: 3%;
+  transition: transform 0.5s;
+}
+
+.Reload:hover {
+  cursor: grab;
+  transform: scale(1.4) rotate(180deg);
 }
